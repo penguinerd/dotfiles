@@ -20,16 +20,22 @@ return {
 			lsp.default_keymaps({buffer = bufnr})
 		end)
 
-		require("mason").setup()
+		require("mason").setup({
+			ensure_installed = {
+				"prettierd",
+				"stylua",
+				"black",
+				"eslint_d"
+			},
+		})
 		require("mason-lspconfig").setup({
 			ensure_installed = {
 				"pyright", -- python
+
 				"clangd", -- C/C++
 
 				"ts_ls", -- javascript/typescript
 				"tailwindcss",
-				"eslint", 
-				"prettierd",
 			},
 		})
 
