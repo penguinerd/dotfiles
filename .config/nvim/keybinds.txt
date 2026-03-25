@@ -35,3 +35,8 @@ Keybinds
 - x: cut
 - p: paste
 - R: refresh
+- H: toggle dotfile visibility
+- I: toggle gitignore-d visiblity
+
+>>> Undotree
+- F5 - open

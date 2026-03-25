@@ -8,6 +8,19 @@ vim.g.loaded_netrwPlugin = 1
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
+--[[ Project root
+vim.keymap.set("n", "<leader>tp", function()
+	local root = vim.fn.systemlist("git rev-parse --show-toplevel")[1]
+
+	if root and root ~= "" then
+		vim.cmd("cd " .. root)
+		require("nvim-tree.api").tree.change_root(root)
+	else
+		print("Not inside a git repository")
+	end
+end, { desc = "Tree + cwd: git root" })
+--]]
+
 -- Line numbers
 vim.opt.number = true
 vim.opt.relativenumber = true
