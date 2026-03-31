@@ -4,9 +4,6 @@ export XDG_SESSION_TYPE=wayland
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
-alias shutdown='systemctl poweroff'
-alias reboot='systemctl reboot'
-
 # Extract any archive
 extract () {
     if [ -f "$1" ] ; then
