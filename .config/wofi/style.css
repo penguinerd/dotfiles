@@ -1,6 +1,66 @@
 * {
     font-family: "FOT-Matisse Pro EB",
-    		 "BlexMono Nerd Font Mono",
-                 "Noto Sans CJK SC",
-                 "NIS JTC Win M9";
+    "BlexMono Nerd Font Mono",
+    "Noto Sans CJK SC",
+    "NIS JTC Win M9";
+    font-sizez: 14px;
+}
+
+window {
+    margin: 0px;
+    border: 2px solid #78B4EF;
+    border-radius: 12px;
+    background-color: rgba(10, 17, 28, 0.94);
+}
+
+#input {
+    margin: 10px;
+    padding: 10px 14px;
+
+    border: 1px solid #29445E;
+    border-radius: 8px;
+
+    color: #D8E7F5;
+    background-color: rgba(20, 34, 51, 0.95);
+
+    outline: none;
+}
+
+#input:focus {
+    border: 1px solid #78B4EF;
+}
+
+#inner-box {
+    margin: 0px 10px 10px 10px;
+    background-color: transparent;
+}
+
+#outer-box {
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+
+#scroll {
+    margin: 0px;
+    background-color: transparent;
+}
+
+#text {
+    margin: 4px 8px;
+    color: #C7D4E1;
+}
+
+#entry {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+#entry:selected {
+    background-color: #29445E;
+}
+
+#entry:selected #text {
+    color: #F4F9FF;
 }
