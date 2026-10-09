@@ -7,9 +7,9 @@ i miss winter :'(
 - Claude
 
 ## Showcase
-![image 1](./Showcase/2026-10-08-235328_hyprshot.png)
+![image 1](./Pictures/Showcase/2026-10-08-235328_hyprshot.png)
 
-![image 2](./Showcase/2026-10-08-235535_hyprshot.png)
+![image 2](./Pictures/Showcase/2026-10-08-235535_hyprshot.png)
 
 ## Components
 - Hyprland
