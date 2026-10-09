@@ -4,7 +4,7 @@
 
     "layer": "overlay",
     "height": 30,
-    "spacing": 10,
+    "spacing": 5,
 
     "modules-left": [
         "wlr/workspaces",
@@ -36,10 +36,11 @@
         "menu": "on-click",
         "menu-file": "$HOME/.config/waybar/power_menu.xml",
         "menu-actions": {
-            "shutdown": "shutdown",
-            "reboot": "reboot",
+            "lock": "hyprlock",
             "suspend": "systemctl suspend",
-            "hibernate": "systemctl hibernate"
+            "hibernate": "systemctl hibernate",
+            "shutdown": "shutdown",
+            "reboot": "reboot"
         }
     },
 
@@ -47,7 +48,8 @@
         "format": "󰮯 {}",
         "interval": 3600,
         "exec": "checkupdates | wc -l",
-        "exec-if": "exit 0"
+        "exec-if": "exit 0",
+        "on-click": "kitty sudo pacman -Syu"
     },
 
     "wlr/workspaces": {
@@ -81,14 +83,14 @@
     "network": {
         "interface": "wlp3s0",
         "format": "{ifname}",
-        "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "format-linked": "{ifname} (No IP) ",
+        "format-wifi": "{essid} ",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "format-linked": "{ifname} (No IP)",
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}",
 
-        "tooltip-format": "{ifname} via {gwaddr} ",
-        "tooltip-format-wifi": "{essid} (UP:{bandwidthUpBytes}) (DOWN:{bandwidthDownBytes}) ",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "tooltip-format-wifi": "{essid} ",
         "tooltip-format-ethernet": "{ifname} ",
         "tooltip-format-disconnected": "Disconnected ⚠",
         "max-length": 100
@@ -97,8 +99,8 @@
     "pulseaudio": {
         "format": "{volume}% {icon} {format_source}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
+        "format-bluetooth-muted": "󰖁 {icon} {format_source}",
+        "format-muted": "󰖁 {format_source}",
         "format-source": "{volume}% ",
         "format-source-muted": "",
 
@@ -234,5 +236,5 @@
         "format": "{:%H:%M} ",
         "format-alt": "{:%Y-%m-%d} 󰃭",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
-    },
+    }
 }

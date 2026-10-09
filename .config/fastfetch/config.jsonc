@@ -4,7 +4,11 @@
     "logo": {
         "type": "auto",
         "padding": {
-            "right": 3
+            "right": 3,
+            "top": 5
+        },
+        "color": {
+            "1": "blue"
         }
     },
 
@@ -22,31 +26,26 @@
             "format": "┌────────────────────────●─────────────────────────┐",
             "outputColor": "blue"
         },
-
         {
             "type": "title",
             "key": "",
             "format": "{user-name}@{host-name}"
         },
-
         {
             "type": "custom",
             "format": "└────────────────────────●─────────────────────────┘",
             "outputColor": "blue"
         },
-
         {
             "type": "custom",
-            "format": "                                   ",
+            "format": "                                  ",
             "outputColor": "blue"
         },
-
         {
             "type": "custom",
             "format": "┌────────────────────────●─────────────────────────┐",
             "outputColor": "blue"
         },
-
         {
             "type": "os",
             "key": " OS"
@@ -85,14 +84,14 @@
             "type": "wm",
             "key": " WM"
         },
-        {
+        /*{
             "type": "theme",
             "key": "│ ├  Theme"
         },
         {
             "type": "icons",
             "key": "│ ├  Icons"
-        },
+        },*/
         {
             "type": "font",
             "key": "│ ├  Font"
@@ -109,20 +108,23 @@
             "type": "terminalfont",
             "key": "│ └  Terminal Font"
         },
-
         {
             "type": "custom",
             "format": "│",
             "outputColor": "blue"
         },
-
         {
             "type": "cpu",
             "key": " CPU"
         },
         {
+            "type": "cpuusage",
+            "key": "│ ├  Usage"
+        },
+        {
             "type": "gpu",
-            "key": "│ ├  GPU"
+            "key": "│ ├  GPU",
+            "format": "{name} ({core-usage-num}%)"
         },
         {
             "type": "memory",
@@ -169,12 +171,5 @@
             "format": "└────────────────────────●─────────────────────────┘",
             "outputColor": "blue"
         },
-
-        {
-            "type": "custom",
-            "format": "                                   ",
-            "outputColor": "blue"
-        }
-
     ]
 }
