@@ -11,7 +11,7 @@ i miss winter :'(
 
 ![image 2](../Pictures/Showcase/2026-10-08-235535_hyprshot.png)
 
-## Components
+## Dependencies
 - Hyprland
 - Waybar
 - Wofi
