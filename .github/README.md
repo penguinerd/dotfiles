@@ -7,18 +7,28 @@ i miss winter :'(
 - Claude
 
 ## Showcase
-![image 1](./Showcase/2026-10-08-235328_hyprshot.png)
+![image 1](../.dotfiles/Showcase/2026-10-08-235328_hyprshot.png)
 
-![image 2](./Showcase/2026-10-08-235535_hyprshot.png)
+![image 2](../.dotfiles/Showcase/2026-10-08-235535_hyprshot.png)
 
-## Components
-- Hyprland
-- Waybar
-- Wofi
-- Dunst
-- Kitty
-- Fastfetch
+## Dependencies
+- hyprland
+- waybar
+- wofi
+- dunst
+- kitty
+- fastfetch
+- hyprlock
+- hypridle
+- hyprpaper
 - BlexMono NFM
+
+## Installation
+1. clone the repo
+2. download dependencies
+3. copy various files/blocks into respective ~/.config/...
+4. vibe code any errors :)
 
 ---
 wip
+nge / vinland next (but more original this time)
