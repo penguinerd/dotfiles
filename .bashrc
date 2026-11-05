@@ -2,6 +2,7 @@
 
 export XDG_CURRENT_DESKTOP=Hyprland
 export XDG_SESSION_TYPE=wayland
+export PATH="${PATH}:${HOME}/.local/bin/"
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'

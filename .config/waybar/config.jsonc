@@ -42,9 +42,10 @@
         "menu-file": "$HOME/.config/waybar/power_menu.xml",
         "menu-actions": {
             "lock": "hyprlock",
+            "hyprshutdown": "hyprshutdown",
             "suspend": "systemctl suspend",
             "hibernate": "systemctl hibernate",
-            "shutdown": "shutdown",
+            "shutdown": "shutdown now",
             "reboot": "reboot"
         }
     },

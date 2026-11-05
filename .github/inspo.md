@@ -1,0 +1,19 @@
+# Rices to copy
+- https://github.com/flafydev/fantasy_rice
+- https://github.com/vdawg-git/space_dots
+- https://github.com/arfan-on-clouds/hyprclouds/tree/main
+- https://github.com/prasanthrangan/hyprdots
+- https://github.com/snes19xx/surface-dots/tree/main
+- https://github.com/Axenide/Dotfiles
+- https://github.com/end-4/dots-hyprland
+- https://github.com/flickowoa/dotfiles
+- https://github.com/frigaut/hyprland-dotfiles
+- https://github.com/Aylur/dotfiles
+- https://github.com/randomboi404/eww
+- https://github.com/PROxZIMA/.dotfiles/
+- https://github.com/xfcasio/amadeus
+- https://github.com/Nytril-ark/rumda
+- https://github.com/qxb3/conf/tree/kami
+- https://github.com/justinmdickey/publicdots
+- https://github.com/caelestia-dots/caelestia
+- https://github.com/ilyamiro/serpantinum

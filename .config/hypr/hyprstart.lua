@@ -3,8 +3,9 @@ hl.on("hyprland.start", function()
     hl.exec_cmd("nm-applet")
     hl.exec_cmd("copyq")
 
-    hl.exec_cmd("gnome-keyring-daemon --start --components=secrets") -- git
+    hl.exec_cmd("gnome-keyring-daemon --start --components=secrets")         -- git
     hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1") -- vpn? idk
+    hl.exec_cmd("fcitx5 -d")                                                 --keyboard input for diff languages
 
     -- rice
     hl.exec_cmd("waybar")
